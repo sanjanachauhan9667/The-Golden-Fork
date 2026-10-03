@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+   <header>
+        <nav>
+            <div class="Logo">
+                 THE GOLDEN FORK
+            </div>
+            <ul >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+   </header>
+
+   <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Good Food, Great Moments</h1>
+                <p>Enjoy delicious food and a warm dining experience at The Golden Fork.</p>
+                <a href="#" class="btn" id="bookBtn">Book Now</a>
+            </div>
+            <img src="./Images/hero.jpg" alt="Hero Image">
+        </section>
+
+
+
+        <section class="dish" id="menu">
+            <h2>Our Signature Dishes</h2>
+            <p>Discover some of our most loved dishes, freshly prepared with delicious ingredients.</p>
+
+        
+        <div class="dish-container">
+        
+            <div class="dish-card">
+                <img src="./Images/pizza.jfif" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>₹299</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+
+            <div class="dish-card">
+                <img src="./Images/burger.jpg" alt="Burger">
+                <h3>Burger</h3>
+                <p>₹199</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            <div class="dish-card">
+                <img src="./Images/Pasta.jpg" alt="Pasta">
+                <h3>Pasta</h3>
+                <p>₹249 </p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            <div class="dish-card">
+                <img src="./Images/Dessert.jpg" alt="Dessert">
+                <h3>Dessert</h3>
+                <p>₹149</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            <div class="dish-card">
+                <img src="./Images/drinks.jpg" alt="Drinks">
+                <h3>Drinks</h3>
+                <p>₹99</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            <div class="dish-card">
+                <img src="./Images/special.jpg" alt="Special">
+                <h3>Special</h3>
+                <p>₹349</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+        </div>
+        </section>
+
+
+
+        <section class="about" id="about">
+            <h2>About The Golden Fork</h2>
+    
+            <div class="about-container">
+
+                <div class="about-image">
+                    <img src="./Images/Chef.jpg" alt="Chef">
+                </div>
+
+                <div class="about-content">
+
+                    <p>At The Golden Fork, we serve fresh and delicious food in a warm and welcoming atmosphere.</p>
+                
+                    <ul>
+                        <li>Fresh Ingredients</li>
+                        <li>Expert Chefs</li>
+                        <li>Hygienic Kitchen</li>
+                        <li>Warm & Friendly Service</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="why-choose-us">
+
+            <h2>Why Choose Us</h2>
+
+            <div class="features-container">
+
+                <div class="feature-card">
+                    <div>🥗</div>
+                    <h3>Fresh Ingredients</h3>
+                </div>
+
+                <div class="feature-card">
+                    <div>🚚</div>
+                    <h3>Fast Delivery</h3>
+                </div>
+
+                <div class="feature-card">
+                    <div>⭐</div>
+                    <h3>Quality Food</h3>
+                </div>
+
+                <div class="feature-card">
+                    <div>👨‍🍳</div>
+                    <h3>Expert Chefs</h3>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="customer-reviews">
+
+            <h2>Customer Reviews</h2>
+
+            <div class="reviews-container">
+
+                <div class="review-card">
+                    <div class="customer">😊</div>
+                    <h3>Priya</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>“Amazing food and wonderful service!”</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="customer">😊</div>
+                    <h3>Rahul</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>“The food was delicious and fresh.”</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="customer">😊</div>
+                    <h3>Neha</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>“Beautiful atmosphere and great food!”</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h3>Contact Us</h3>
+            <p>Have questions? We'd love to hear from you.</p>
+
+            <div class="contact-container">
+
+                <form class="contact-form">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Your Name">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter Your Email">
+
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder="Enter Your Phone Number">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Enter Your Message"></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+
+                </form>
+
+            </div>
+        </section>
+   </main>
+
+   <footer class="footer">
+        
+        <h2>THE GOLDEN FORK</h2>
+
+        <p> 123 Main Street, Delhi |
+        +91 98765 43210 |
+        info@goldenfork.com</p>
+
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+
+        <div class="footer-line"></div>
+
+        <p>Designed & Developed by Sanjana Chauhan</p>
+        <p>© 2026 The Golden Fork. All Rights Reserved.</p>
+
+   </footer>
+
+   <script src="./script.js"></script>
+
+</body>
+</html>
+
